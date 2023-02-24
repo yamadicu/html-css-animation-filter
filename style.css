@@ -15,7 +15,15 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: 0.3;
 }
+
+.ex-2-square:active{
+    width: 100%;
+}
+
+/* esercizio 2 */
+
 .ex-3-square {
     width: 100px;
     height: 100px;
