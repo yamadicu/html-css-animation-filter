@@ -55,7 +55,15 @@
     width: 60px;
     height: 60px;
     background: red;
+    transition: 1s;
 }
+
+.ex-5-square:hover{
+    transform: scale(2);
+}
+
+/* esercizio 5 */
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
