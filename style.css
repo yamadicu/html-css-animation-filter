@@ -99,12 +99,57 @@
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img{
+    transition: 1s;
+}
+
+.ex-9-img:hover{
+    filter: grayscale(1) sepia(1);
+    border-radius: 50px;
+    transform: scale(1.5);
+}
+
+/* esercizio 9 */
+
 .ex-10-icon {
     font-size: 60px;
 }
+
+.ex-10-icon{
+    animation: gira 1s linear infinite;
+}
+
+@keyframes gira{
+    0%{
+        transform: rotate(1turn);
+    }
+}
+
+/* esercizio 10 */
+
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover{
+    animation: gira2 2s linear;
+}
+
+@keyframes gira2 {
+    0%{
+        transform: rotate(0);
+    }
+    90%{
+        transform: rotate(315deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+
+/* esercizio 11 */
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
